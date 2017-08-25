@@ -5,6 +5,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FailPlugin = require('webpack-fail-plugin');
 const autoprefixer = require('autoprefixer');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   module: {
@@ -22,13 +23,15 @@ module.exports = {
         enforce: 'pre'
       },
       {
-        test: /\.(css|scss)$/,
-        loaders: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-          'postcss-loader'
-        ]
+        test: /\.css$/,
+        exclude: /\.config.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [
+            'css-loader?modules&localIdentName="[name]-[local]-[hash:base64:6]"&importLoaders=1',
+            'postcss-loader'
+          ]
+        })
       },
       {
         test: /\.js$/,
@@ -53,7 +56,8 @@ module.exports = {
         postcss: () => [autoprefixer]
       },
       debug: true
-    })
+    }),
+    new ExtractTextPlugin('styles.css')
   ],
   devtool: 'source-map',
   output: {
