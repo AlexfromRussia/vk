@@ -8,6 +8,7 @@ import Root from './app/components/Root';
 import configureStore from './app/store/configureStore';
 import {Router, Route, browserHistory} from 'react-router';
 import Feed from './app/components/Feed';
+import './app/style/style.css';
 
 const store = configureStore();
 
