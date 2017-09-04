@@ -8,9 +8,10 @@ class Menu extends Component {
       <div className={style.menu}>
         <span className={style.left_label}><Link to="/">Моя страница</Link></span>
         <span className={style.left_label}><Link to="/feed">Новости</Link></span>
-        <span className={style.left_label}><Link to="/">Сообщения</Link></span>
-        <span className={style.left_label}><Link to="/">Друзья</Link></span>
+        <span className={style.left_label}><Link to="/messange">Сообщения</Link></span>
+        <span className={style.left_label}><Link to="/friend">Друзья</Link></span>
         <span className={style.left_label}><Link to="/">Фотографии</Link></span>
+        <span className={style.left_label}><Link to="/auth">Авторизация</Link></span>
       </div>
     );
   }

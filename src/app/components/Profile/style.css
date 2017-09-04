@@ -1,0 +1,98 @@
+.left_right {
+  max-width: 100%;
+  height: 760px;
+  width: 700px;
+  margin-top: 25px;
+}
+.foto_page {
+  height: 272px;
+  width: 240px;
+  padding: 15px;
+  background: #ffffff;
+  align-items: center;
+}
+.avatar {
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.button {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  color: #55677d;
+}
+.friend {
+  height: 272px;
+  width: 260px;
+}
+.header_title {
+  width: 270px;
+  height: 32px;
+  background: #ffffff;
+  border-top: 25px solid #edeef0;
+}
+.title_friend {
+  margin: 6px 0 0 10px;
+  height: 40px;
+  width: 65px;
+}
+.user {
+  background: #ffffff;
+  height: 240px;
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.user_id {
+  margin: 18px 0 0 10px;
+  height: 75px;
+  width: 75px;
+  align-items: center;
+
+}
+.people_avatar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.img_friend {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center
+}
+.people_title {
+  text-align: center;
+  background: #ffffff;
+}
+.youtube {
+  background: #ffffff;
+  height: 390px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.video {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.title_video {
+  margin: 6px 0 0 26px;
+  height: 40px;
+  width: 200px;
+}
+.commentBox {
+  height: 400px;
+  width: 550px;
+}
+.comment {
+  height: 100px;
+  width: 500px;
+}

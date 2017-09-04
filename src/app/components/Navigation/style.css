@@ -41,6 +41,26 @@
   border: 0;
   box-sizing: border-box;
   padding: 6px 6px 6px 19px;
- margin-top: 1px;
+  margin-top: 2px;
+  margin-left: 22px;
+  border-radius: 10px 10px 10px 10px;
 }
-
+.search_input {
+  border: 0;
+  box-sizing: border-box;
+  padding: 6px 6px 6px 19px;
+  margin-top: 2px;
+  margin-left: 22px;
+  border-radius: 10px 10px 10px 10px;
+  background: #305075;
+  font-size: 12px;
+  color: #8fadc8;
+}
+.block {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+.block :hover {
+  background: red;
+}

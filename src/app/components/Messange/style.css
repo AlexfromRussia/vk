@@ -1,0 +1,17 @@
+.glok {
+  height: 400px;
+  width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.vivod {
+  height: 100px;
+  width: 500px;
+  display: flex;
+}
+.vivod2 {
+  height: 300px;
+  width: 500px;
+  display: flex;
+}

@@ -4,7 +4,7 @@ import style from './style.css';
 class Footer extends Component {
   render() {
     return (
-      <div className={style.footer}>hey</div>
+      <div className={style.footer}>У ВК НЕТУ ФУТЕРА ААААА</div>
     );
   }
 }

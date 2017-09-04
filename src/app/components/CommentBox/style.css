@@ -1,0 +1,37 @@
+.ul {
+  height: 100px;
+  width: 500px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.messanger {
+  height: 35px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  height: 40px;
+  width: 350px;
+  background: #ffffff;
+}
+.li {
+  list-style: none;
+}
+.button {
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  background: #305075;
+  border-radius: 50%;
+}
+.button_Add {
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  background: #305075;
+  border-radius: 50%;
+}
+

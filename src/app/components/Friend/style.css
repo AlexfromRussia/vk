@@ -1,0 +1,82 @@
+.friend {
+  margin: 25px 0 0 0;
+  height: 600px;
+  width: 270px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.friend_header {
+  height: 55px;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #edeef0;
+  border-bottom: 1px solid #edeef0;
+}
+.friend_title {
+  height: 55px;
+  width: 105px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: auto;
+}
+.friend_button {
+  margin-top: 14px;
+  margin-left: 320px;
+  height: 30px;
+  width: 110px;
+  color: #ffffff;
+  background: #507299;
+  font-size: 12px;
+}
+.friend_search_f {
+  display: flex;
+  flex-direction: row;
+}
+.friend_search {
+  height: 45px;
+  width: 550px;
+  border-bottom: 1px solid #edeef0;
+}
+.friend_id {
+  height: 500px;
+  width: 504px;
+  display: flex;
+  flex-direction: column;
+}
+.friend_container {
+  flex-wrap: wrap;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.friend_search_field {
+  height: 35px;
+  width: 400px;
+  margin-left: 45px;
+  border: none;
+  font-size: 14px;
+}
+.img_s {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.parametr {
+  text-align: center;
+  margin: 9px 0 0 7px;
+}
+.item_img {
+  height: 80px;
+  width: 80px;
+}
+.item_data {
+  height: 15px;
+  width: 110px;
+  color: #42648b;
+  margin: 15px 5px 5px 15px;
+  text-align: center;
+}

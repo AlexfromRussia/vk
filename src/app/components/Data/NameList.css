@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boy {
+  height: 15px;
+  background: red;
+  margin: 2px;
+}
+.girl {
+  height: 15px;
+  background: blanchedalmond;
+  margin: 2px;
+}

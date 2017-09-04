@@ -1,0 +1,15 @@
+.content {
+  max-width: 100%;
+  max-height: 100%;
+  background: #edeef0;
+}
+.boy {
+  height: 30px;
+  width: 55px;
+  background: rebeccapurple;
+}
+.girl {
+  height: 30px;
+  width: 55px;
+  background: greenyellow;
+}

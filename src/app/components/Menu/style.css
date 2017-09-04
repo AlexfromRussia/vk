@@ -1,5 +1,7 @@
 .menu {
   width: 200px;
+  flex-shrink: 0;
+  margin-top: 25px;
 }
 .left_label {
   display: flex;
@@ -15,5 +17,6 @@
 .left_label a {
   text-decoration: none;
   color: #2a5674;
+  text-decoration: #2a5674;
 
 }
